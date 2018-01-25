@@ -235,6 +235,7 @@ LOCAL_MODULE := libqti_performance
 LOCAL_MODULE_OWNER := kenzo
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqti_performance.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqti_performance.so
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
